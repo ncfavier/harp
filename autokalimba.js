@@ -273,7 +273,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
   $("#select-special-chord").onchange = setSpecialLabel;
   $("#hue").value = 0;
   $("#hue").oninput = $("#hue").onchange = (e) => {
-    document.body.style.filter = `hue-rotate(${e.target.value}deg)`;
+    document.documentElement.style.filter = `hue-rotate(${e.target.value}deg)`;
   };
   // Initial tuning-value text
   $("#tuning-value").innerText = `+0¢`;

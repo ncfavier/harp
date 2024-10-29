@@ -12,6 +12,7 @@
 html {
   height: 100%;
   width: 100%;
+  filter: hue-rotate(0deg);
 }
 
 body {
@@ -21,7 +22,6 @@ body {
   height: 100%;
   margin: 0;
   touch-action: pan-x pan-y pinch-zoom;
-  filter: hue-rotate(0deg);
 }
 
 .container {
